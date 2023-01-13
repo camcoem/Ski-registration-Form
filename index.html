@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The ultimate ski adventure</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      
+              <div id="left-side" class="left-side-grid"> 
+                <form>
+                 <h2 class="title-ski">Register for the ultimate ski adventure</h2>
+                  
+                 <div class="basic-info"> 
+                   <h3>Your basic info</h3>
+                   <br>
+                   
+                   <fieldset class="name-surname">
+                     <label for="name-surname">Name and surname *</label>
+                     <br>
+                     <input type="text" id="name-surname" required></input>
+                   </fieldset>
+                   <br>
+
+                   <div class="email-password">
+                     <fielset class="email">
+                       <label for="email">Email *</label>
+                       <br>
+                       <input type="email" id="email" placeholder="example@mail.com"required></input>
+                     </fielset>
+                   
+                     <fieldset class="password">
+                       <label for="password">Password *</label>
+                       <br>
+                       <input type="password" id="password" required></input>
+                     </fieldset>
+                   </div>
+
+                   <br>
+                   <fieldset class="age">
+                      <label for="age">Age</label>
+                      <br>
+                      <input type="radio" id="age-under">Under 18</input>
+                      <br>
+                      <input type="radio" id="age-over">18 and over</input>
+                   </fieldset>
+                 </div>
+                
+                 <div class="about-yourself"> 
+                   <h3>Tell us about yourself</h3>
+                   <br>
+                   
+                   <fieldset>
+                     <label for="your-bio">Your biography</label>
+                     <br>
+                     <textarea id="your-bio"></textarea>
+                   </fieldset>
+                   <br>
+        
+                   <fieldset>
+                     <label for="location">Select location</label>
+                     <br>
+                     <select id="cities">
+                       <option value="--Select a City--">select a city</option>
+                     </select>
+                   </fieldset>
+                   <br>
+                   
+                   <fieldset class="equipment">
+                     <label for="equipment">What equipment would you like to rent?</label>
+                       <br>
+                       <br>
+                     
+                       <input type="checkbox" id="equipment1">
+                       <label for="equipment1">Skis</label>
+                       <br>
+                     
+                       <input type="checkbox" id="equipment2">
+                       <label for="equipment2">Helmet</label>
+                       <br>
+                     
+                       <input type="checkbox" id="equipment3">
+                       <label for="equipment3">Googles</label>
+                       <br>
+        
+                       <input type="checkbox" id="equipment4">
+                       <label for="equipment4">Ski boots</label>
+                       <br>
+        
+        
+                       <input type="checkbox" id="equipment5">
+                       <label for="equipment5">Ski poles</label>
+                       <br>  
+                   </fieldset>
+                  </div>
+                
+                 <div class="reset-submit-btns">
+                     <button  type="reset" id="reset-btn"><strong>Reset</strong></button>
+                     <button type="submit" id="submit-btn">Submit</button>
+                 </div>
+                </form>  
+              </div>
+          
+              <div id="right-side" class="right-side-grid">
+                <h1 class="title-right-side">Epic experience<br>in the snow</h1>
+              </div>     
+    </div>
+      
+  </body>
+</html>
