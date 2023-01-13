@@ -1,0 +1,161 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+fieldset {
+  border: 0;
+}
+
+
+/* YOUR BASIC INFO  & TELL US ABOUT YOURSELF*/
+
+.title-ski {
+  margin-bottom: 60px;
+}
+
+
+#name-surname,
+#email,
+#password,
+#your-bio,
+#cities{
+  background: #E2E5ED;
+  border-radius: 8px;
+  border: none;
+  color: #979797;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#name-surname,
+#cities {
+  width: 620px;
+  height: 51px;
+}
+
+#email,
+#password {
+  width: 301px;
+  height: 51px; 
+}
+
+#your-bio {
+  width: 620px;
+  height: 105px;
+}
+
+.age {
+  margin-bottom: 55px;
+}
+
+#age-under {
+  margin-bottom: 10px;
+  margin-top: 12px;
+
+}
+
+.email-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.email {
+  margin-right: 18px;
+}
+
+
+#reset-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  width: 300px;
+  height: 51px; 
+  background-color: white;
+  color: black;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.reset-submit-btns {
+  display: flex;
+}
+
+#submit-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  width: 300px;
+  height: 51px; 
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+  background: #149770;
+  border: none;
+}
+
+.equipment {
+  margin-bottom: 50px;
+}
+
+/* EPIC EXPERIENCE IN THE SNOW */
+
+.right-side-grid {
+  background-image: url(assets/ski.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  resize: both;
+  background-position: 90%;
+}
+
+
+.title-right-side {
+  margin-top: 125px;
+  margin-left: 90px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* GRID LAYOUT  */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.left-side-grid {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+
